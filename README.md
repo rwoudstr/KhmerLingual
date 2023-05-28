@@ -1,2 +1,2 @@
 # KhmerLingual
-Android app for learning the Khmer language
+Android app for English speakers to learn the Khmer language.
