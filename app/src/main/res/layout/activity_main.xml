@@ -2,13 +2,14 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/peach_light">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="32sp"
-        android:text="MAIN"/>
+        android:src="@drawable/kl_colour"
+        android:contentDescription="KhmerLingual logo"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>
