@@ -5,6 +5,14 @@
     android:layout_height="match_parent"
     android:background="@color/peach_light">
 
+    <ImageButton
+        android:id="@+id/menu_button"
+        android:layout_height="98.41dp"
+        android:layout_width="115.39dp"
+        android:src="@drawable/kl_menu"
+        android:contentDescription="menu button"
+        android:layout_alignParentEnd="true"/>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

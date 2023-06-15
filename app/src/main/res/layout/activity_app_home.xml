@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/peach_light">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/menu_button"
+        android:layout_height="98.41dp"
+        android:layout_width="115.39dp"
+        android:src="@drawable/kl_menu"
+        android:contentDescription="menu button"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
